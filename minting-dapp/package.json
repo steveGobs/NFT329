@@ -2,6 +2,7 @@
     "name": "@hashlips-lab/nft-erc721-collection-minting-dapp",
     "version": "0.0.0",
     "private": true,
+    "homepage" : "https://cpscposternft.com",
     "devDependencies": {
         "@babel/preset-react": "^7.0.0",
         "@metamask/detect-provider": "^1.2.0",
@@ -36,6 +37,13 @@
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
-        "build": "encore production --progress"
+        "build": "encore production --progress",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "dependencies": {
+        "-": "^0.0.1",
+        "gh-pages": "^4.0.0",
+        "save-dev": "^0.0.1-security"
     }
 }
