@@ -39,7 +39,8 @@
         "watch": "encore dev --watch",
         "build": "encore production --progress",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "gh-pages -d build",
+        "build-dapp": "cd smart-contract; yarn; yarn compile; cd ../minting-dapp; yarn; yarn build"
     },
     "dependencies": {
         "-": "^0.0.1",
