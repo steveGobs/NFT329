@@ -2,7 +2,7 @@
     "name": "@hashlips-lab/nft-erc721-collection-minting-dapp",
     "version": "0.0.0",
     "private": true,
-    "homepage" : "https://cpscposternft.com",
+    "homepage": "https://steveGobs.github.io/@hashlips-lab/nft-erc721-collection-minting-dapp",
     "devDependencies": {
         "@babel/preset-react": "^7.0.0",
         "@metamask/detect-provider": "^1.2.0",
